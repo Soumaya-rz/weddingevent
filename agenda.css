@@ -1,0 +1,59 @@
+
+
+.video-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+}
+
+.video video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#h1agenda {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    z-index: 10;
+}
+.img-agenda img {
+    display: block;
+    width: 600px;
+}
+
+.calendform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 30px;
+}
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.nom, .prenom, .datemariage, .rdv, .email{
+    padding-bottom: 50px;
+}
+.submit input{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #7a6c5d;
+    border: none;
+    color: white;
+    border-radius: 50px;
+}
+input[type="button"]:hover{
+    background-color: black ;
+}
+
