@@ -1,0 +1,68 @@
+* {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+ul > li {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1em;
+}
+header > h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+/* BODY */
+.choix {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding: 2em;
+}
+
+.red-asterisk {
+  color: red;
+}
+
+.grid-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px 10px pink;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px;
+  gap: 150px 250px;
+  padding: 500px;
+}
+
+.grid-container > div {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+/* GRID PLACEMENT */
+.email {
+  grid-area: 2;
+}
+
+/* agrandissement balise input */
+.padding {
+  padding: 1rem;
+}
+
+button {
+  text-transform: uppercase;
+  border: 1px dashed ivory;
+  border-radius: 50px;
+  padding: 2em;
+}
+button:hover {
+  background-color: aquamarine;
+}
