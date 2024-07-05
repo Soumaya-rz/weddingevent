@@ -1,5 +1,7 @@
 * {
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 /* HEADER */
@@ -36,8 +38,8 @@ header > h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px 100px 100px 100px;
-  gap: 50px 10px;
-  padding: 150px;
+  gap: 150px 250px;
+  padding: 500px;
 }
 
 .grid-container > div {
