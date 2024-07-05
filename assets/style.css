@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap");
+
+:root {
+  --taupe: #7a6c5d;
+  --taupeopacity: rgba(122,108,93,0.9);
+  --white: #fff;
+  --noir: black;
+  --ivoire: #f6f8e9;
+}
+
+body {
+  font-family: "Wittgenstein", serif;
+  background-color: var(--ivoire);
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Baskervville SC", serif;
+}
+
+/*Header*/
+
+header{
+  background-color: var(--taupeopacity);
+}
+
+.navbar-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: var(--ivoire);
+  align-items: center;
+  width: 100%;
+  height: 90px;
+
+}
+
+.logo img {
+  width: 90px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.navbar-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  display:flex;
+  list-style-type: none;
+  gap: 60px;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+.navbar-links li a{
+  text-decoration: none;
+  color: var(--ivoire);
+  font-size: 16px;
+  transition: font-size 1s ease;
+}
+
+.navbar-links li a:hover {
+  font-size: 18px;
+}
+
+.navbar-media-container{
+  width: 10%;
+}
+.navbar-media-container ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  font-size: 20px;
+}
+/*Header*/
+
+
+
+/*Footer*/
+.footer-container {
+  background-color: var(--taupeopacity);
+  margin: auto;
+  color: var(--ivoire);
+  width: 100%;
+  height:60px;
+  text-align: center;
+  padding-top: 5px;
+}
+/*Footer*/
