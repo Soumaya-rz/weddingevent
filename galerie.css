@@ -1,0 +1,90 @@
+#citation{
+    text-align: center;
+    color: tan;
+    font-size: 2rem;
+}
+
+p{
+animation-duration: 2s;
+animation-name: slidein;
+}
+
+@keyframes slidein {
+    from{
+        translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+ 
+h1{
+    text-align: right;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container1{
+    background-color: beige;
+    width: 40%;
+    height: 20%;
+    text-align: center;
+}
+
+.container2{
+    width: 40%;
+    max-height: 600Px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.container3{
+    width: 40%;
+    max-height: 600Px;
+    overflow:hidden;
+    border-radius:30px;
+}
+
+.container4{
+    background-color: beige;
+    width: 40%;
+    height: 20%;
+    text-align: center;
+}
+
+.container5{
+     width: 40%;
+    max-height: 600Px;
+    overflow:hidden;
+    border-radius: 30px; 
+}
+
+.container6{
+    background-color: beige;
+    width:40%;
+    height: 20%;
+    text-align: center;
+}
+
+
+.container5,.container3,.container2{
+    animation-duration: 2s;
+    animation-name: zoom;
+    }
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
