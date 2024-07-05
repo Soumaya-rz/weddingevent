@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="inscription.css" />
+    <title>Inscription</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="" alt="" />
+        <ul class="flex-horizontal">
+          <li>Acceuil</li>
+          <li>Galerie</li>
+          <li>Agenda</li>
+          <li>Inscription</li>
+        </ul>
+      </nav>
+    </header>
+    <form>
+      <div class="choix">
+        <h1>Lorem ipsum dolor sit amet?</h1>
+        <select>
+          <option value="">(Veuillez selectionner)</option>
+          <option value="">Renseignement</option>
+          <option value="">Devis</option>
+          <option value="">Prise de <rendez-vous></rendez-vous></option>
+          <option value="">Lorem, ipsum dolor.</option>
+        </select>
+      </div>
+      <div class="grid-container">
+        <div class="nom">
+          <label for="nom">Nom<span class="red-asterisk">*</span></label>
+          <input type="text" placeholder="Votre nom" required class="padding" />
+        </div>
+        <div class="prenom">
+          <label for="prenom">Prénom<span class="red-asterisk">*</span></label>
+          <input
+            type="text"
+            placeholder="Votre prénom"
+            required
+            class="padding"
+          />
+        </div>
+        <div class="email">
+          <label for="emeail">Email<span class="red-asterisk">*</span></label>
+          <input
+            type="email"
+            placeholder="lorem@gmail.com"
+            required
+            class="padding"
+          />
+        </div>
+        <div class="telephone">
+          <label for="telephone">Téléphone</label>
+          <input type="tel" placeholder="+33" class="padding" />
+        </div>
+        <div class="objet">
+          <label for="sujet-message"
+            >Sujet du message<span class="red-asterisk">*</span></label
+          >
+          <input
+            type="text"
+            placeholder="Description"
+            required
+            class="padding"
+          />
+        </div>
+        <div class="file">
+          <label for="document">Document</label>
+          <input type="file" accept=".pdf" class="padding" />
+        </div>
+        <div class="message">
+          <label for="message"
+            >Message <span class="red-asterisk">*</span></label
+          >
+          <textarea
+            name="message"
+            id=""
+            placeholder="Votre message"
+            rows="5"
+            cols="30"
+            required
+          ></textarea>
+        </div>
+        <div class="Envoyer"></div>
+        <button>Envoyer</button>
+      </div>
+    </form>
+  </body>
+</html>

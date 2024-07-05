@@ -1,0 +1,65 @@
+* {
+  color: black;
+}
+
+/* HEADER */
+
+ ul > li {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1em;
+}
+/* BODY */
+.choix {
+  display: flex;
+  justify-content: center;
+}
+label {
+
+}
+.red-asterisk {
+  color: red;
+}
+
+.grid-container{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: ;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 100px 100px 100px 100px ;
+  gap: 50px 50px;
+  padding: 150px;
+}
+
+.grid-container > div {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+
+/* GRID PLACEMENT */
+.email{
+grid-area : 2;
+}
+
+
+/* agrandissement balise input */
+.padding {
+  padding: 1rem;
+}
+
+button {
+  text-transform: uppercase;
+  border: 1px dashed ivory;
+  border-radius: 15px;
+  padding: 2em;
+}
+button:hover {
+  background-color: aquamarine;
+}
+
+input[type]
